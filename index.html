@@ -6,19 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Box personal portfolio Template</title>
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <title>Yuchang Zhou</title>
+    <link rel="icon" href="img/fav_1.png" type="image/x-icon">
 
     <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.typekit.net/bwk3dtr.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
 
-
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,21 +46,16 @@
         <!-- box header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+                <a href="index.html"><img src="img/logo_2.png" width="80" alt="Logo"></a>
             </div>
+
+
             <!-- box-nav -->
-
-            <!-- <a class="box-primary-nav-trigger" href="#0">
-              <span class="box-menu-text">Resume</span>
-                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
-            </a> -->
-
             <div class="box-primary-nav-trigger">
-  <!-- <a href="#gallery"><span class="box-menu-text">Works</span></a> -->
-  <a href="documents/resume_2020_yuchang.pdf" target=”_blank”><span class="box-menu-text">Resume</span></a>
-    <a class="menu-switch" href="#0"><span class="box-menu-text">Menu</span><span class="box-menu-icon"></span></a>
-</div>
-
+              <a href="#gallery"><span class="box-menu-text">Works</span></a>
+              <a href="documents/resume_2020_yuchang.pdf" target=”_blank”><span class="box-menu-text">Resume</span></a>
+                <a class="menu-switch" href="#0"><span class="box-menu-text">Menu</span><span class="box-menu-icon"></span></a>
+            </div>
             <!-- box-primary-nav-trigger -->
         </header>
         <!-- end box header -->
@@ -67,22 +63,13 @@
         <!-- nav -->
         <nav>
             <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
+                <!-- <li class="box-label">Intro</li> -->
 
-                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contact.html">contact me</a></li>
-
-
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+                <li><a href="index.html">Home</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <!--<li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="contact.html">contact me</a></li> -->
             </ul>
         </nav>
         <!-- end nav -->
@@ -90,15 +77,14 @@
         <!-- box-intro -->
         <section class="box-intro">
             <div class="table-cell">
-              <!-- <h5>Hello, I'm</h5> -->
-                <h1 class="box-headline letters rotate-2">
+                <h1 class="box-headline letters">
                     <span class="box-words-wrapper">
-                        <b class="is-visible">Yuchang&nbsp;Z.</b>
+                        <b class="is-visible">Hi, I'm Yuchang 👋</b>
                         <!-- <b>&nbsp;coding.</b>
                         <b>graphic.</b> -->
                     </span>
 		        </h1>
-                <h4>🎨 UX Designer @<a href="https://www.huawei.com/en" >Huawei</a> | Cornellian</h4>
+                <h5><b class="blue">UX Designer & Developer</b>,<br> Student studying Computer Science at Cornell University.</h5>
             </div>
 
             <div class="mouse">
@@ -109,179 +95,183 @@
     </div>
 
     <!-- portfolio div -->
-    <div class="portfolio-div">
-        <div class="portfolio">
-            <div class="no-padding portfolio_container">
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6  fashion logo">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mockups in seconds</span>
-                                    <em>Fashion / Logo</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+  <div class="gallery" id="gallery">
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 ads graphics">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Floating mockups</span>
-                                    <em>Ads / Graphics</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 fashion ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Held by hands</span>
-                                    <em>Fashion / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-            </div>
-            <!-- end portfolio_container -->
+    <!-- <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Case Study</div>
+          <div class="project-text" >美团买菜——为会员场景进行全流程设计</div>
         </div>
-        <!-- portfolio -->
+      <div class="project-left-container">
+        <img src="https://res.cloudinary.com/dek8yxa45/image/upload/v1598415976/mt/hxy_umekl1.png" alt="image" class="img-responsive" />
+      </div>
+      <div class="project-right-container">
+        <a style="font-style: normal;
+    font-weight: 400;" href = "meituan0.html"><div class="project_link">Learn more</div></a>
+      </div>
     </div>
-    <!-- end portfolio div -->
+    </div> -->
+
+    <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Case Study</div>
+          <div class="project-text" >Flux—Helping Cornell students avoid crowd in public spaces.</div>
+        </div>
+      <div class="project-left-container">
+        <img src="https://res.cloudinary.com/dek8yxa45/image/upload/q_auto/v1596182880/banner/03_mtcrzy.png" alt="image" class="img-responsive" />
+      </div>
+      <div class="project-right-container">
+        <a style="font-style: normal;
+    font-weight: 400;" href = "flux.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+    </div>
+
+
+
+    <!-- <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Case Study</div>
+          <div class="project-text" >Coping with COVID-19: Revolutionizing Flux to help keeping social distancing.</div>
+        </div>
+      <div class="project-left-container">
+        <img src="https://res.cloudinary.com/dek8yxa45/image/upload/q_auto/v1596182880/banner/03_mtcrzy.png" alt="image" class="img-responsive" />
+      </div>
+      <div class="project-right-container">
+        <a href = "flux.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Case Study</div>
+          <div class="project-text" >Flux—Helping Cornell students avoid crowd in public spaces.</div>
+        </div>
+      <div class="project-left-container">
+        <img src="https://res.cloudinary.com/dek8yxa45/image/upload/q_auto/v1596182880/banner/03_mtcrzy.png" alt="image" class="img-responsive" />
+      </div>
+      <div class="project-right-container">
+        <a href = "flux.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+    </div> -->
+
+    <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Internship</div>
+          <div class="project-text" >Interning at Cornell IT: Redesigning Cornell Blog Theme</div>
+        </div>
+      <div class="project-left-container">
+<img src="images/loading.gif" data-src="https://res.cloudinary.com/dek8yxa45/image/upload/v1598582432/cbb_nau6qk.png" alt="image" class="img-responsive lazyload" />
+      </div>
+      <div class="project-right-container">
+  <a style="font-style: normal; font-weight: 400;" href = "cornell.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Game Design</div>
+          <div class="project-text" >J-Walk—Game Design to motivate language learning.</div>
+        </div>
+      <div class="project-left-container">
+<img src="images/loading.gif" data-src="https://res.cloudinary.com/dek8yxa45/image/upload/c_scale,q_auto,w_1362/v1596182879/banner/jwalk4_a30azd.png" alt="image" class="img-responsive lazyload" />
+      </div>
+      <div class="project-right-container">
+  <a style="font-style: normal; font-weight: 400;" href = "jwalk.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Internship</div>
+          <div class="project-text" >Interning at Intel: Creating a robust virtual classroom for universities.</div>
+        </div>
+      <div class="project-left-container">
+<img src="images/loading.gif" data-src="https://res.cloudinary.com/dek8yxa45/image/upload/v1596713724/banner/intel2_zukqhd.png" alt="image" class="img-responsive lazyload" />
+      </div>
+      <div class="project-right-container">
+  <a style="font-style: normal; font-weight: 400;" href = "intel.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+    </div>
+
+    <!-- <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Case Study</div>
+          <div class="project-text" >IT@Cornell—Redesigning Cornell Blog service experience.</div>
+        </div>
+      <div class="project-left-container">
+        <img src="img/03.png" alt="image" class="img-responsive" />
+      </div>
+      <div class="project-right-container">
+        <a href = "single-project.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+    </div> -->
+
+
+
+    <!-- <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">Case Study</div>
+          <div class="project-text" >Branding of Tri-Fi: A high fidelity audio equipment rental service.</div>
+        </div>
+      <div class="project-left-container">
+        <img src="img/4.jpg" alt="image" class="img-responsive" />
+      </div>
+      <div class="project-right-container">
+        <div class="project_link">Learn more</div>
+      </div>
+    </div> -->
+
+
+
+      <!-- <div class="project-text" >Flux, Cornell Design & Tech Initiative</div><br style="clear: both;">
+      <div class="project-text" >Flux, Cornell Design & Tech Initiative</div><br style="clear: both;"> -->
+      <!-- <div><img src="img/01.jpg"></img></div> -->
+    <!-- </div> -->
+
+    <div class="project" data-aos="fade-up" data-aos-duration="1000">
+      <div style="width:100%">
+        <div class="project-top-container">
+          <div class="project-label">UI Challenge</div>
+          <div class="project-text" >Daily UI Challenge</div>
+        </div>
+      <div class="project-left-container">
+<img src="images/loading.gif" data-src="https://res.cloudinary.com/dek8yxa45/image/upload/q_auto/v1596583024/banner/milk_ojfykj.png" alt="image" class="img-responsive lazyload" />
+      </div>
+      <div class="project-right-container">
+  <a style="font-style: normal; font-weight: 400;" href = "dailyui.html"><div class="project_link">Learn more</div></a>
+      </div>
+    </div>
+      <!-- <div class="project-text" >Flux, Cornell Design & Tech Initiative</div><br style="clear: both;">
+      <div class="project-text" >Flux, Cornell Design & Tech Initiative</div><br style="clear: both;"> -->
+      <!-- <div><img src="img/01.jpg"></img></div> -->
+    </div>
+
+    <!-- <div class="project" data-aos="fade-up" data-aos-duration="1000">
+    </div> -->
+  </div>
+
+
 
     <!-- footer -->
     <footer>
         <div class="container-fluid">
-            <p class="copyright">© Yuchang Zhou 2021</p>
+            <p class="copyright">© Yuchang Zhou 2020</p>
         </div>
     </footer>
     <!-- end footer -->
@@ -291,19 +281,25 @@
     <!-- end back to top -->
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!-- modernizr -->
+    <script src="js/modernizr.js" async=""></script>
     <!-- jQuery -->
     <script src="js/jquery-2.1.1.js"></script>
     <!--  plugins -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" async=""></script>
     <script src="js/menu.js"></script>
     <script src="js/animated-headline.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-
+    <script src="js/aos.js" async=""></script>
+    <script src="js/lazysizes.min.js" async=""></script>
 
     <!--  custom script -->
     <script src="js/custom.js"></script>
-
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
